@@ -1,136 +1,38 @@
-/* Import Google Fonts */
-@import url("//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-
-.card{
-    display: none
-}
-
-/* Body */
-#bdy1{
- background-image:url("https://github.com/KerimCan05/ataturk-artadorheme/blob/main/image.png?raw=true") !important;
+#homepage{
+ background-image:url("https://github.com/KerimCan05/ataturk-artadorheme/blob/main/image.png?raw=true");
  background-size:cover;
+ background-attachment:fixed;
 }
 
-/* Middle */
-#form1 .middle{
- transform:translatex(0px) translatey(0px);
-}
 
-/* Searchpanel */
-#searchpanel{
- background-color:#ffffff !important;
- border-color:rgba(255,255,255,0) !important;
- border-style:none !important;
- border-width:1px;
- border-top-left-radius:5px;
- border-top-right-radius:5px;
- border-bottom-left-radius:5px;
- border-bottom-right-radius:5px;
- position:relative;
- top:0px;
- perspective:0px;
- box-shadow:0px 0px 50px 2px #020202;
- filter: hue-rotate(1deg);
- float:none;
- clear:none;
- visibility:visible;
- opacity:1;
- pointer-events:auto;
-}
-
-/* Menu */
-#form1 .top .btn-success{
- background-color:#ffffff !important;
- border-color:rgba(255,255,255,0) !important;
- border-top-left-radius:5px;
- border-top-right-radius:5px;
- border-bottom-left-radius:5px;
- border-bottom-right-radius:5px;
- color:#020202 !important;
-}
-
-/* Italic Tag */
-.top .btn-success i{
- color:#020202;
- text-align:center;
- text-transform:uppercase;
- font-size:12px;
- box-shadow:none;
-}
-
-/* Offcanvas right */
 #offcanvasRight{
- transform:translatex(0px) translatey(0px);
- border-color:rgba(255,255,255,0) !important;
- border-top-left-radius:5px !important;
- border-top-right-radius:0px;
- border-bottom-left-radius:5px !important;
- border-bottom-right-radius:0px;
- background-color:rgba(2,2,2,0.38) !important;
- backdrop-filter:blur(6.16px) !important;
+ background-color:transparent;
+ backdrop-filter:blur(10px);
 }
 
-/* Offcanvas backUnknown */
-#form1 .top .offcanvas-backdrop{
- background-color:rgba(0,0,0,0);
+#features .flex-wrap{
+ padding-bottom:20px;
+ padding-top:20px;
+ color:#ffffff;
+ background-color:#020202;
 }
 
-/* Button */
-#offcanvasRight .offcanvas-body a{
- border-top-left-radius:5px;
- border-top-right-radius:5px;
- border-bottom-left-radius:5px;
- border-bottom-right-radius:5px;
- border-color:#ffffff !important;
- background-color:rgba(2,2,2,0.4) !important;
- border-width:1px;
- text-transform:capitalize;
+.grid div div span{
+ color:#ffffff;
 }
 
-/* Offcanvas body */
-#offcanvasRight .offcanvas-body{
- background-color:rgba(0,0,0,0);
+.grid p span{
+ color:#ffffff;
 }
 
-/* Themes */
-#Themes{
- font-family:'Roboto', sans-serif;
- border-width:1px;
- border-color:#ffffff !important;
- border-top-left-radius:5px;
- border-top-right-radius:5px;
- border-bottom-left-radius:5px;
- border-bottom-right-radius:5px;
- background-color:rgba(2,2,2,0.4) !important;
+#features .max-sm\:px-10{
+ backdrop-filter:blur(4px);
 }
 
-/* Languages */
-#Languages{
- background-color:rgba(2,2,2,0.4) !important;
- border-width:1px;
- border-color:#ffffff !important;
- border-top-left-radius:5px;
- border-top-right-radius:5px;
- border-bottom-left-radius:5px;
- border-bottom-right-radius:5px;
- font-family:'Roboto', sans-serif;
+#offcanvasRightLabel{
+ color:#ffffff;
 }
 
-/* Results */
-#Results{
- font-family:'Roboto', sans-serif;
- border-color:#ffffff !important;
- border-width:1px;
- border-top-left-radius:5px;
- border-top-right-radius:5px;
- border-bottom-left-radius:5px;
- border-bottom-right-radius:5px;
- background-color:rgba(2,2,2,0.4) !important;
-}
-
-/* Column 12/12 */
-#offcanvasRight .offcanvas-body .col-md-12{
- display:inline-block;
- transform:translatex(0px) translatey(0px) !important;
- line-height:1.3em;
+.offcanvas-body a span{
+ color:#ffffff;
 }
